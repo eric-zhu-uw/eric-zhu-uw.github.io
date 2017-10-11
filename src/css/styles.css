@@ -1,0 +1,23 @@
+.codeBlock {
+	background-color: #2C2C2F;
+	border: 1px solid #d6d6d6;
+	font-family: 'Inconsolata', monospace;
+	padding: 10px;
+	box-shadow: 0 0 2px 2px #2C2C2F;
+	letter-spacing: 0.1em;
+}
+
+.title {
+	font-size: 1.5em;
+	color: #ffffff;
+	padding-bottom: 5px;
+	display: inline-block;
+	border-bottom: solid 1px #ffffff;
+	margin-bottom: 15px;
+}
+
+
+.line {
+	display: block;
+	color: #ffffff;
+}
