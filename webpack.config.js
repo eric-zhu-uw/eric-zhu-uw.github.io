@@ -7,7 +7,7 @@ module.exports = {
 
 	entry: srcPath + '/index.js',
 	output: {
-		path: distPath,
+		// path: distPath,
 		filename: 'index.js',
 	},
 
