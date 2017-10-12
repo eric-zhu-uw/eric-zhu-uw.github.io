@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-a-carousel@latest:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/a-carousel/-/a-carousel-1.1.1.tgz#eb60491e0f2e85acd30b6bd6e7e03a0543ba8847"
+a-carousel@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/a-carousel/-/a-carousel-1.1.4.tgz#d8fc1d1e2e0f679461cac7584e9606836d26e330"
   dependencies:
     react "^15.6.1"
     react-dom "^15.6.1"

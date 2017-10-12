@@ -1,23 +1,81 @@
-.codeBlock {
-	background-color: #2C2C2F;
-	border: 1px solid #d6d6d6;
-	font-family: 'Inconsolata', monospace;
-	padding: 10px;
-	box-shadow: 0 0 2px 2px #2C2C2F;
-	letter-spacing: 0.1em;
+body {
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.titleContainer {
+	margin: 100px 0 0;
 }
 
 .title {
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	font-size: 2.5em;
+}
+
+.subtitle {
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	font-size: 1em;
+}
+
+.bodyContainer {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.carouselContainer {
+	padding: 50px 0;
+}
+
+.carouselTitle {
+	font-family: 'Roboto Slab', serif;
 	font-size: 1.5em;
-	color: #ffffff;
-	padding-bottom: 5px;
-	display: inline-block;
-	border-bottom: solid 1px #ffffff;
-	margin-bottom: 15px;
+}
+
+.parentStyle {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.childStyle {
+	background-color: #285878;
+	padding: 25px 0;
+}
+
+.headerStyle {
+	text-align: center;
+	color: white;
+}
+
+.wackyForward {
+	width: 30px;
+	height: 10px;
+	background-color: black;
+	opacity: 0.7;
+	border: none;
+	transition: 0.5s;
+	outline: none;
+	border-radius: 3px;
+}
+
+.wackyForward:hover {
+	width: 10px;
+	height: 30px;
 }
 
 
-.line {
-	display: block;
-	color: #ffffff;
+.wackyBackward {
+	width: 10px;
+	height: 30px;
+	background-color: black;
+	border: none;
+	opacity: 0.7;
+	transition: 0.5s;
+	outline: none;
+	border-radius: 3px;
+}
+
+.wackyBackward:hover {
+	width: 30px;
+	height: 10px;
 }

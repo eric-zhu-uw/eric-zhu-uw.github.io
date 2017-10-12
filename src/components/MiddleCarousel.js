@@ -1,7 +1,7 @@
 import React from 'react';
 import ACarousel from 'a-carousel';
 
-export default class DefaultCarousel extends React.Component {
+export default class MiddleCarousel extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -9,7 +9,7 @@ export default class DefaultCarousel extends React.Component {
 	render() {
 		return (
       <div className='parentStyle'>
-        <ACarousel>
+        <ACarousel initialSlide={1} dots={false}>
           <div className='childStyle'>
             <h1 className="headerStyle"> 1 </h1>
           </div>
@@ -18,12 +18,6 @@ export default class DefaultCarousel extends React.Component {
           </div>
           <div className='childStyle'>
             <h1 className="headerStyle"> 3 </h1>
-          </div>
-          <div className='childStyle'>
-            <h1 className="headerStyle"> 4 </h1>
-          </div>
-          <div className='childStyle'>
-            <h1 className="headerStyle"> 5 </h1>
           </div>
         </ACarousel>
       </div>

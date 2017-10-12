@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/eric-zhu-uw/eric-zhu-uw.github.io#readme",
   "dependencies": {
-    "a-carousel": "latest",
+    "a-carousel": "^1.1.4",
     "react": "^15.6.2",
     "react-dom": "^15.6.2"
   },

@@ -1,7 +1,7 @@
 import React from 'react';
 import ACarousel from 'a-carousel';
 
-export default class DefaultCarousel extends React.Component {
+export default class AutoplayCarousel extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -9,7 +9,7 @@ export default class DefaultCarousel extends React.Component {
 	render() {
 		return (
       <div className='parentStyle'>
-        <ACarousel>
+        <ACarousel autoplay={true} arrow={false} dots={false}>
           <div className='childStyle'>
             <h1 className="headerStyle"> 1 </h1>
           </div>
